@@ -14,7 +14,11 @@ A simple and clean theme for the [SDDM display manager](https://github.com/sddm/
 
 # Install it
 
-*hafnium* uses [ninja](https://github.com/ninja-build/ninja) as build-tool. Open terminal in the root folder of the repository and:
+*hafnium* uses [ninja](https://github.com/ninja-build/ninja) as build-tool. 
+
+Open a terminal in the root folder of the repository and:
+
+(in development, currently does not work!)
 
 	$ sudo ninja install
 
