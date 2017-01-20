@@ -27,6 +27,7 @@ Open a terminal in the root folder of the repository and:
 
 Edit `/etc/sddm.conf`:
 
+```
 ...
 [Theme]
 # Current theme name
