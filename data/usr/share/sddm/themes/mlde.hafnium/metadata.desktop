@@ -1,8 +1,8 @@
 [SddmGreeterTheme]
-Name=kernladung.hafnium
+Name=mlde.hafnium
 Type=sddm-theme
 MainScript=Main.qml
 ConfigFile=theme.conf
 TranslationsDirectory=translations
-Theme-Id=kernladung.hafnium
+Theme-Id=mlde.hafnium
 Theme-API=2.0

@@ -5,7 +5,7 @@ A simple and clean theme for the [SDDM display manager](https://github.com/sddm/
 
 # Get it
 
-- clone the repository with `$ git clone https://github.com/kernladung/hafnium` 
+- clone the repository with `$ git clone https://github.com/mlde/hafnium` 
 
 **or**
 
@@ -16,7 +16,7 @@ A simple and clean theme for the [SDDM display manager](https://github.com/sddm/
 
 *hafnium* uses [ninja](https://github.com/ninja-build/ninja) as build-tool. 
 
-Open a terminal in the root folder of the repository and:
+To install *hafnium* open a terminal in the root folder of the repository and:
 
 (in development, currently does not work!)
 
@@ -31,6 +31,6 @@ Edit `/etc/sddm.conf`:
 ...
 [Theme]
 # Current theme name
-Current=kernladung.hafnium
+Current=mlde.hafnium
 ...
 ```
