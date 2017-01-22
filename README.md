@@ -1,11 +1,11 @@
 A simple and clean theme for the [SDDM display manager](https://github.com/sddm/sddm).
 
-![Screenshot of hafnium](https://github.com/kernladung/hafnium/blob/master/screenshot.png)
+![Screenshot](https://github.com/nullraum/nullraum-sddm-theme/blob/master/screenshot.png)
 
 
 # Get it
 
-- clone the repository with `$ git clone https://github.com/mlde/hafnium` 
+- clone the repository with `$ git clone https://github.com/nullraum/nullraum-sddm-theme` 
 
 **or**
 
@@ -14,9 +14,9 @@ A simple and clean theme for the [SDDM display manager](https://github.com/sddm/
 
 # Install it
 
-*hafnium* uses [ninja](https://github.com/ninja-build/ninja) as build-tool. 
+*nullraum-sddm-theme* uses [ninja](https://github.com/ninja-build/ninja) as build-tool. 
 
-To install *hafnium* open a terminal in the root folder of the repository and:
+To install *nullraum-sddm-theme* open a terminal in the root folder of the repository and:
 
 (in development, currently does not work!)
 
@@ -31,6 +31,6 @@ Edit `/etc/sddm.conf`:
 ...
 [Theme]
 # Current theme name
-Current=mlde.hafnium
+Current=nullraum
 ...
 ```
