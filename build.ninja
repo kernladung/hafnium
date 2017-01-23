@@ -1,0 +1,15 @@
+
+rule install
+    command = cp -r data/* /
+
+build install: install
+
+
+rule uninstall
+    command = rm -r /usr/share/sddm/themes/nullraum
+
+build uninstall: uninstall
+
+
+build nothing: phony
+default nothing

@@ -18,8 +18,6 @@ A simple and clean theme for the [SDDM display manager](https://github.com/sddm/
 
 To install *nullraum-sddm-theme* open a terminal in the root folder of the repository and:
 
-(in development, currently does not work!)
-
 	$ sudo ninja install
 
 
@@ -34,3 +32,9 @@ Edit `/etc/sddm.conf`:
 Current=nullraum
 ...
 ```
+
+# Uninstall it
+
+To uninstall *nullraum-sddm-theme* first disable the theme in `/etc/sddm.conf`. Then open a terminal in the root folder of the repository and:
+
+	$ sudo ninja uninstall
