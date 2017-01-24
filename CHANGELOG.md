@@ -1,3 +1,6 @@
+# 01/24/2017
+- changed ninja to makefile
+
 # 01/22/2017
 - moved repository to nullraum
 

@@ -14,11 +14,11 @@ A simple and clean theme for the [SDDM display manager](https://github.com/sddm/
 
 # Install it
 
-*nullraum-sddm-theme* uses [ninja](https://github.com/ninja-build/ninja) as build-tool. 
+*nullraum-sddm-theme* uses [make](https://www.gnu.org/software/make/) as build-tool. 
 
 To install *nullraum-sddm-theme* open a terminal in the root folder of the repository and:
 
-	$ sudo ninja install
+	$ sudo make install
 
 
 # Enable it
@@ -35,6 +35,8 @@ Current=nullraum
 
 # Uninstall it
 
-To uninstall *nullraum-sddm-theme* first disable the theme in `/etc/sddm.conf`. Then open a terminal in the root folder of the repository and:
+To uninstall *nullraum-sddm-theme* open a terminal in the root folder of the repository and:
 
-	$ sudo ninja uninstall
+	$ sudo make uninstall
+
+Of course, you should disable the theme in `/etc/sddm.conf` too.
