@@ -2,7 +2,7 @@ install:
 	cp -r data/* /
 
 uninstall:
-	rm \
+	rm -f \
 	/usr/share/sddm/themes/nullraum/angle-down.png \
 	/usr/share/sddm/themes/nullraum/Main.qml \
 	/usr/share/sddm/themes/nullraum/metadata.desktop \
